@@ -10,7 +10,7 @@ function login(){
     enteredPass = document.querySelector("#pass").value;
     for (i = 0; i < regUser.length; i++) {
         if (enteredMail === regUser[i].mail && enteredPass === regUser[i].pass){
-            window.location.href = "./index.html"
+            window.location.href="./index.html"
             flag=true
             break;
         }
