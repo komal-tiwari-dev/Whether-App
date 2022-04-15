@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  background-image: url("https://cdn.wallpapersafari.com/0/18/fzDO2I.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+/* animation start */
+
+/* animatin end */
+
+#loc {
+  margin-top: -25px;
+  text-align: center;
+}
+#loc > h1 {
+  color: black;
+}
+.getLoc {
+  background-color: #eb6b4b;
+  color: white;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 110%;
+  font-weight: 500;
+}
+.getLoc:hover{
+    background-color: white;
+    color: #eb6b4b;
+}
+#box {
+  border: 0px;
+  height: 380px;
+  width: 500px;
+  /* background-image: url("data:image/jpeg;base64,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"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 620px 720px;
+  color: white;
+  font-size: 130%;
+  font-weight: 600;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.71);
+  backdrop-filter: blur(5px);
+}
+#box:hover{
+    
+  transform: scale(1.11);
+}
+
+#whether {
+  margin-top: 30px;
+  display: flex;
+  gap: 20;
+  justify-content: center;
+  gap: 100px;
+}
+
+#nav {
+  position: sticky;
+  z-index: 100;
+  top: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #333;
+}
+#logo {
+  height: 40px;
+  margin-left: 20px;
+}
+#nav > div:nth-child(3) {
+  margin-right: 20px;
+}
+
+#nav > div:nth-child(3) > a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+#nav > div:nth-child(3) > a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#nav > div:nth-child(3) > a.active{
+  background-color: #eb6b4b;
+  color:black
+}
+.content {
+  padding: 16px;
+}
+
+#city {
+  height: 30px;
+  font-size: 110%;
+  border-radius: 5px;
+  border: 0px;
+}
+#submit {
+  height: 32px;
+  font-size: 110%;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 400;
+  background-color: #eb6b4b;
+  color: white;
+}
+#submit:hover{
+    background-color: white;
+    color: #eb6b4b;
+}
+
+#forecastdata {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+#foreBox {
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 110%;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.51);
+  backdrop-filter: blur(5px);
+}
+#foreBox:hover{
+    transform: scale(1.11);
+    z-index:20;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
+.mapouter:hover{
+  transform: scale(1.1);
+  z-index: 9999;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
