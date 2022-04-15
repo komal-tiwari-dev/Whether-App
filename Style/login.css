@@ -67,7 +67,10 @@ form > input {
   border-radius: 5px;
   padding: 6px;
 }
-
+#form>a{
+  display: block;
+  color: white;
+}
 #submit {
     margin-top: 10px;
   border: 0px;

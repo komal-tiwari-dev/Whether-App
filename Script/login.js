@@ -19,7 +19,7 @@ function login(){
         alert("Credentails Matchs")
     }
     else {
-        alert("User Credentails Invalid")
+        alert("User Credentails Invalid\nIf New User SignUp First")
     }
 
 }
