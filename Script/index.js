@@ -8,6 +8,7 @@ function getData() {
     })
     .then(function (res) {
       displayData(res);
+      getWeather7Day(res.coord.lat, res.coord.lon);
       console.log(res);
     })
 
@@ -113,6 +114,8 @@ function displayData(data) {
 function append7Day(data) {
   let main = document.querySelector("#forecastdata");
   main.innerText = null;
+  document.querySelector("#fore").innerText =
+    "Whether Forecast For Next 7 Day";
   let i = 0;
   data.map(function (elem) {
     if (i == 0) {
@@ -137,7 +140,12 @@ function append7Day(data) {
       let humidity = document.createElement("p");
       humidity.innerText = `Humidity : ${elem.humidity}`;
 
-      box.append(dateBox, temp, maxTemp, minTemp, humidity);
+      let img = document.createElement("img");
+      img.setAttribute("id", "wheImg");
+      img.src = `https://openweathermap.org/img/wn/${elem.weather[0].icon}@2x.png`;
+
+
+      box.append(dateBox, img, temp, maxTemp, minTemp, humidity);
 
       main.append(box);
     }

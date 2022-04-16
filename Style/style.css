@@ -9,6 +9,14 @@ body {
 
 /* animatin end */
 
+#wheImg{
+  margin-left: 20%;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+#fore{
+  text-align: center;
+}
 #loc {
   margin-top: -25px;
   text-align: center;
