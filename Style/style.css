@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  background-image: url("https://cdn.wallpapersafari.com/0/18/fzDO2I.gif");
+  /* background-image: url("https://cdn.wallpapersafari.com/0/18/fzDO2I.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
+  background-color: darkkhaki;
+  color: black;
 }
 /* animation start */
 
